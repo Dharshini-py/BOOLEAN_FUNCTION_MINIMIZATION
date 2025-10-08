@@ -37,7 +37,7 @@ output f1;
 assign f1=((~b & ~d)|(~a & b & d)|(a & b & ~c));  
 endmodule   
 
-module ex2(w,x,y,z,f2);   
+module ex3(w,x,y,z,f2);   
 input w,x,y,z;   
 output f2;  
 assign f2=((~y & z)|( w & y )|(x & y));  
@@ -56,10 +56,9 @@ RegisterNumber: 25010872
 
 **Timing Diagram**
 
-<img width="1920" height="1080" alt="Screenshot (21)" src="https://github.com/user-attachments/assets/1ba2c288-7bf7-4599-90d6-670e69eaccfa" />
+<img width="1920" height="1080" alt="Screenshot (39)" src="https://github.com/user-attachments/assets/b3ab7471-3727-4987-9056-0b8782793308" />
 
-<img width="1920" height="1080" alt="Screenshot (23)" src="https://github.com/user-attachments/assets/ea2c0917-5cc0-4d35-b7e9-8172efd5e4c7" />
-
+<img width="1920" height="1080" alt="Screenshot (40)" src="https://github.com/user-attachments/assets/978497dd-fec7-453f-8fa1-ecfa43e92545" />
 
 **Result:**
 
